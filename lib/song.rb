@@ -52,7 +52,7 @@ class Song
   def self.create_from_filename(filename)
     file = filename.split(".")
     file.pop
-    file = file.split(" - ")
+    
     binding.pry
   end
 
