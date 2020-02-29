@@ -42,10 +42,10 @@ class Song
   end
   
   def self.alphabetical
-    self.all.sort_by do |song_object|
+    alphabetical_name = self.all.sort_by do |song_object|
       song_object.name
     end
-    @@all
+    alphabetical_name
   end
 
 end
