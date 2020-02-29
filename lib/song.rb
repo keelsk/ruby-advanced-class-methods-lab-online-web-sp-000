@@ -51,7 +51,7 @@ class Song
   
   def self.create_from_filename(filename)
     file = filename.split(".")
-    file = file.pop
+    file.pop
     binding.pry
   end
 
