@@ -54,6 +54,7 @@ class Song
     file.pop
     name_artist = file.join.split(" - ")
     self.create_by_name(name_artist[1])
+    self.artist_name = name_artist[0]
   end
 
 end
