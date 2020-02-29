@@ -52,7 +52,8 @@ class Song
   def self.create_from_filename(filename)
     file = filename.split(".")
     file.pop
-    name_artist = file.join
+    name_artist = file.join.split(" - ")
+    
     
     binding.pry
   end
