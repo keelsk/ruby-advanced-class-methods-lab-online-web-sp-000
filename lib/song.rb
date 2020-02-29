@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -48,7 +50,9 @@ class Song
   end
   
   def self.create_from_filename(filename)
-    
+    file = filename.split(".")
+    file = file.pop
+    binding.pry
   end
 
 end
