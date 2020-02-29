@@ -45,7 +45,7 @@ class Song
     self.all.sort_by do |song_object|
       song_object.name
     end
-    @all
+    @@all
   end
 
 end
