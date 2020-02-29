@@ -42,8 +42,9 @@ class Song
   end
   
   def self.alphabetical
-    self.all.sort_by 
-    alphabetical_array
+    self.all.sort_by do |song_object|
+      
+    end
   end
 
 end
